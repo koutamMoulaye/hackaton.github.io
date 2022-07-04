@@ -1,0 +1,110 @@
+*{
+    font-family: 'Lobster', cursive;
+}
+.body{
+    background-image: url(book.png);
+}
+.titre{
+    text-align: center;
+    font-size: 50px;
+}
+.Marcel{
+    text-align: center;
+    width: 25%;
+    top: auto;
+}
+.carre{
+    border-radius: 20%;
+    position: relative;
+    left: 25% ;
+    height:15%;
+    width: 350px;
+    color: crimson;
+}
+.carre:hover{
+    padding: 15px;
+    height: 20%;
+    transition: all .3s;
+}
+.chap1{
+    position: absolute;
+    top: 110px;
+    left: 13.5%;
+}
+
+.chap2{
+    position: absolute;
+    top: 110px;
+    left: 45%;
+}
+.chap3{
+    position: absolute;
+    top: 283px;
+    left: 13.5%;
+}
+.chap4{
+    position: absolute;
+    top: 283px;
+    left: 45%;
+}
+.chap5{
+    position: absolute;
+    top: 430px;
+    left: 13.5%;
+}
+.chap6{
+    position: absolute;
+    top: 430px;
+    left: 45%;
+}
+.chap7{
+    position: absolute;
+    top: 580px;
+    left: 13.5%;
+}
+.chap8{
+    position: absolute;
+    top: 580px;
+    left: 45%;
+}
+.chap9{
+    position: absolute;
+    top: 730px;
+    left: 13.5%;
+
+}
+.chap10{
+    position: absolute;
+    top: 730px;
+    left: 45%;
+}
+.acceuil{
+    text-decoration: double;
+    position: relative;
+    text-align: center;
+    top: 800px;
+    color: whitesmoke;
+    background-color: #fc5185;
+    font-size: 50px;
+    border-radius: 10px;
+    padding: 20px ;
+    box-shadow: 0 0 60px -10px #CD106E;
+    transition: all .3s;
+    left: 45%;
+}
+.acceuil:hover{
+    box-shadow: 0 0 60px -5px #eb0678;
+}
+.car{
+    text-decoration: dashed;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    position: relative;
+   
+}
+img {
+    position:relative;
+    object-fit:contain;
+    width: 15%;
+    height: 15%;
+}
