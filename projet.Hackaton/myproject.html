@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>   
+    <title>project</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widht=device-widht, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
+    <body>
+        
+        
+            <nav id="monancre1">
+            <label style="color: aliceblue;" class="logo">MLK</label>
+                <ul>
+                    <li><a  href="myproject.html" href="monancre1"> Accueil</a></li>
+                    <li><a href="form.html"> Contact</a></li>
+                    <li><a href="#mon_ancre1">about</a></li>
+                    <li><a href="#mon_ancre2">HOBBIES</a></li>
+                    <li><a href="index.html"> Cv</a></li>
+                </ul>
+                <lavel id="icon">
+                    <i class="fas fa-bars"></i>
+                </lavel>
+            </nav>
+    
+             <section class="about" id="mon_ancre1">
+                <h1><span>WELCOME !!</span></br></h1>
+                    <p style="color: azure; margin-left: 100px;">Je m'appelle Moulaye Koutam, j'ai 18 ans. J'ai toujours </br>été passionné par les ordinateurs, alors une fois le bac en poche j'ai décidé</br> de m'orienter vers l'université de l'ESTIAM dans laquelle j'ai suivi un cursus d'informatique sur 5 ans.</p>
+                 <h1 class="heading"> about</h1>
+                 <div class="row">
+                     <div class="info">
+                     <h3>Nom : Moulaye Mohamed Koutam</h3>
+                     <h3>Âge : 18 ans</h3>
+                     <h3>Profession : ETUDIANT</h3>
+                     <h3>Niveau : LICENCE 1</h3>
+                     <a href="index.html"><button class="btn">Telecharger mon cv<i class="fas fa-download"></i></button></a>
+                 </div>
+                </div>
+             </section> 
+             <section class="about" id="mon_ancre2">
+                <h1 class="heading"> HOBBIES</h1>
+            </div>
+            <div style="width: 1500px;"class="container">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img  style="height: 500px;width: 500px;"src="devper.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img style="height: 500px;width: 500px;"src="football.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img  style="height: 500px;width: 500px;"src="informatique.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img  style="height: 500px;width: 500px;"src="manga.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img  style="height: 500px;width: 500px;"src="voyage.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img  style="height: 500px;width: 500px;"src="jeu.png" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        
+             </section>
+             <footer>
+                <ul>
+                    <li><a href="https://twitter.com/home">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li><a href="https://web.telegram.org/k/">
+                        <i class="fab fa-telegram"></i>
+                        </a>
+                    </li>
+                    <li><a  href="mailto:ml.koutam@gmail.com">
+                        <i class="far fa-envelope"></i>
+                        </a>
+                    </li>
+                </ul>
+            </footer> 
+            <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+            <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+            
+            <script>
+                $(document).ready(function(){
+                    $('#icon').click(function(){
+                        $('ul').toggleClass("show");
+                    });
+                });
+                $('.slide').hiSlide();
+            </script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+           
+    </body>
+    </html>
