@@ -1,0 +1,171 @@
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("image4.jpg");
+}
+
+
+/* initialisation de ma page */
+*, ::before, ::after {
+
+    margin: 10;
+    padding: 0;
+    list-style-type: none;
+}
+
+body {
+    font-family: "Source Sans Pro";
+    height: 100vh;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    background: transparent;
+    position: fixed;
+    transition: all 0.3s ease-in-out;
+}
+
+/* prévoir ici une div qu'on va animer avec du JS */
+.anim-nav {
+    background: #333;
+    color: #f1f1f1;
+   border-bottom:  1px solid #f1f1f1;
+    transition: 0.3s ease-out;
+}
+
+.liste {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.liste li a {
+    color: rgb(243, 234, 234);
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+a, a:visited {
+    color: rgb(0,0,5);
+    margin: 10px;
+    text-decoration: none;
+}
+
+.liste:hover,
+li a:hover {
+    border: 1px soplid skyblue;
+    color: rgb(241, 172, 60);
+}
+.home {
+    height: 100%;
+    background-image: url(image4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.home .container-firt {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 70px;
+    padding-left: 100px;
+    padding-top: 100px;
+    color: rgb(248, 248, 248);
+    font-weight: 300;
+}
+
+h1 span {
+    position: relative;
+}
+
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+p {
+    line-height: 27px;
+    padding: 27px 50px;
+    text-align: justify;
+}
+/* hangement de couleur de selection */
+p::selection {
+    background: rgb(71, 65, 65);
+    color: white;
+)
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+
+}
+
+footer {
+    padding: 70px 0 70px;
+}
+
+footer:before {
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 1px;
+    background: rgb(139, 94, 21);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#cv{
+    border: 1px solid;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    width: 33%;
+    min-width: 100px;
+    margin: 0 auto;
+}
+
+footer a {
+    border: 1px solid #333;
+    border-radius: 50px;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.logo {
+    position: fixed;
+    left: 3.2px;
+    top: 4px;
+    width: 65px;
+    height: 65px;
+}
+
+    
+      
+   fieldset {
+       border: 2px solid;
+        width: 500px;
+   }
+  
